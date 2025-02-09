@@ -24,7 +24,7 @@ import {
 import PurchaseCourseProtectedRoute from "./components/PurchaseCourseProtectedRoute";
 import { ThemeProvider } from "./components/ThemeProvider";
 
-const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "https://elearningbyprashant.vercel.app";
+const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "https://elearningbyprashant.vercel.app/";
 
 const appRouter = createBrowserRouter([
   {
